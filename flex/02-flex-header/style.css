@@ -5,6 +5,7 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  /* this was part of my solution */
   display: flex;
   justify-content: space-between;
   
@@ -21,16 +22,18 @@
   
 }
 
-ul {
+   ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+
+  /* this was part of my solution */
   display: inline-flex;
   justify-content: center;
   padding-inline-start: 0;
   margin-inline-start: 0;
 
  
-}
+} 
 
 a {
   font-size: 22px;
@@ -41,7 +44,7 @@ a {
   justify-content: space-around;
   
 }
-
+/* this was part of my solution */
 .right-links a {
   justify-content: flex-end;
   margin-left: 2rem;
@@ -51,3 +54,19 @@ a {
   justify-content: flex-start;
   margin-right: 2rem;
 }
+
+/* This is the solution that was given */
+
+/* .header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+} */
