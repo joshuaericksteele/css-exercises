@@ -12,6 +12,40 @@ img {
   font-weight: 900;
 }
 
+/* This is the edits that i have made to this css file.  */
+* {
+  /* border: 2px solid rebeccapurple; */
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.row-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  flex-wrap: wrap;
+}
+
+.text {
+  padding: 8px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
